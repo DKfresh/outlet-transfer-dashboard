@@ -1,0 +1,7 @@
+# Raw source data and secrets never go to GitHub
+*.csv
+*.xlsx
+.github-token
+.github-token.*
+__pycache__/
+scripts/__pycache__/

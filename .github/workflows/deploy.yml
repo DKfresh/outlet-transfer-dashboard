@@ -27,6 +27,7 @@ jobs:
       - name: Upload site as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # Only index.html is deployed (the page embeds its own data).
           path: .
 
       - name: Deploy to GitHub Pages
